@@ -9,11 +9,11 @@
 
 @font-face {
   font-family: Dosis;
-  src: url("./fonts/Dosis-VariableFont_wght.ttf") format("truetype");
+  src: url('./fonts/Dosis-VariableFont_wght.ttf') format('truetype');
 }
 
 .bold-headline {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-style: normal;
 }
@@ -21,7 +21,7 @@
 body {
   background-color: var(--primary-color);
   color: var(--body-text);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-style: normal;
 }
