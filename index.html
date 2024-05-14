@@ -40,20 +40,29 @@
   </head>
   <body>
     <header id="main-header">
-      HandyMan4U
-      <div>
-        <button
-          class="menu-button"
-          href="javascript:void(0)"
-          onclick="toggleFunction()"
-        >
-          Menu
+      <span class="logo"> HandyMan4U</span>
+      <div class="side-menu">
+        <button onclick="toggleFunction()" aria-label="toggle menu">
+          <!-- Hamburger icon -->
+          <div class="hamb">
+            <span class="hamb-line"></span>
+          </div>
         </button>
-        <nav>
-          <a href="#about">About</a>
-          <a href="#services">Services</a>
-          <a href="#our-work">Our Work</a>
-          <a href="#contact"> Contact Us</a>
+        <nav class="menu">
+          <ul role="menu">
+            <li role="menuitem">
+              <a href="#about">About</a>
+            </li>
+            <li role="menuitem">
+              <a href="#services">Services</a>
+            </li>
+            <li role="menuitem">
+              <a href="#our-work">Our Work</a>
+            </li>
+            <li role="menuitem">
+              <a href="#contact"> Contact Us</a>
+            </li>
+          </ul>
         </nav>
       </div>
     </header>
