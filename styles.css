@@ -145,6 +145,61 @@ header a:focus {
 
 /******************* END Header ****************************/
 
+/******************* ABOUT SECTION ****************************/
+#about {
+  display: flex;
+  margin: 40px 48px;
+  align-items: center;
+  justify-content: center;
+}
+
+#about .bold-headline {
+  font-size: 2.25em;
+}
+
+h1 {
+  margin: 0;
+}
+
+#about a {
+  color: var(--body-text);
+  text-decoration: none;
+}
+
+#about p {
+  font-size: 1.25em;
+  color: var(--accent-color);
+  max-width: 570px;
+}
+
+#about p.highlight {
+  font-family: var(--other-font);
+  font-size: 2.25em;
+  color: var(--body-text);
+}
+
+@media all and (max-width: 820px) {
+  #about {
+    flex-direction: column;
+  }
+  #about .bold-headline {
+    font-size: 1.8em;
+  }
+  #about p {
+    font-size: 1em;
+  }
+  #about p.highlight {
+    font-size: 1.25em;
+  }
+  #about img {
+    width: 250px;
+  }
+}
+
+/******************* END ABOUT Section ****************************/
+
+/******************* Services Section ****************************/
+
 .services-div {
   display: flex;
   justify-content: center;
@@ -175,66 +230,15 @@ header a:focus {
   align-items: center;
 }
 
-@media only screen and (max-width: 820px) {
-  #services ul {
-    margin-left: 16px;
-  }
-}
-@media only screen and (max-width: 430px) {
+@media all and (max-width: 820px) {
   #services ul {
     flex-direction: column;
   }
 }
 
-#about {
-  display: flex;
-  margin: 40px 48px;
-  align-items: center;
-  justify-content: center;
-}
+/******************* END Services Section ****************************/
 
-#about .bold-headline {
-  font-size: 2.25em;
-}
-
-#about a {
-  color: var(--body-text);
-  text-decoration: none;
-}
-
-#about p {
-  font-size: 1.25em;
-  color: var(--accent-color);
-  max-width: 570px;
-}
-
-h1 {
-  margin: 0;
-}
-
-#about p.highlight {
-  font-family: var(--other-font);
-  font-size: 2.25em;
-  color: var(--body-text);
-}
-
-@media only screen and (max-width: 430px) {
-  #about {
-    flex-direction: column;
-  }
-  #about .bold-headline {
-    font-size: 1.8em;
-  }
-  #about p {
-    font-size: 1em;
-  }
-  #about p.highlight {
-    font-size: 1.25em;
-  }
-  #about img {
-    width: 250px;
-  }
-}
+/******************* Our Work Section ****************************/
 
 #our-work {
   display: flex;
@@ -286,6 +290,10 @@ figcaption {
   }
 }
 
+/******************* END Our Work Section ****************************/
+
+/******************* Contact Us Section ****************************/
+
 #contact {
   text-align: center;
 }
@@ -334,7 +342,7 @@ form button {
   border-radius: 4px;
 }
 
-@media only screen and (max-width: 430px) {
+@media all and (max-width: 820px) {
   .contact-box {
     flex-direction: column;
   }
@@ -345,7 +353,9 @@ form button {
     margin-bottom: 16px;
   }
 }
+/******************* END Contact Us  Section ****************************/
 
+/******************* Testimonials Section ****************************/
 blockquote {
   color: var(--accent-color);
   text-align: center;
@@ -354,9 +364,13 @@ blockquote {
 blockquote footer {
   margin-top: 8px;
 }
+/******************* END Testimonials Section ****************************/
 
+/******************* Footer ****************************/
 .page-footer {
   display: flex;
   padding: 16px;
   justify-content: space-between;
 }
+
+/******************* END Footer ****************************/
